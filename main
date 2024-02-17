@@ -1,0 +1,41 @@
+"""
+File on A Midsummer Night's Dream obtained from the Shakespeare XML Corpus Sample on nltk.org
+
+Text placed in the public domain by Moby Lexical Tools, 1992.
+XML markup by Jon Bosak, 1996-1998.
+XML Styling done by Ajay Juneja, 1999.
+This work may be freely copied and distributed worldwide.
+"""
+import nltk
+nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
+from random import shuffle
+
+text_annotations = ["PLAY", "TITLE", "PERSONAE", "PERSONA", "PGROUP", 
+                   "GRPDESCR", "ACT", "SCNDESCR", "PLAYSUBT", "LINE", "SPEECH", "SPEAKER", "STAGEDIR"] # script organization and stage direction details that are not in the story itself
+
+adj_list = ["JJ", "JJR", "JJS"] 
+noun_list = ["NN", "NNS", "NNP", "NNPS"]
+#the format for a Repl name is AdjectiveAdjectiveNoun
+
+adjectives = []
+nouns = []
+
+with open('script.txt','r') as a_midsummer_nights_dream:
+  for line in a_midsummer_nights_dream:
+    tokens = nltk.word_tokenize(line)
+    pos_tags = nltk.pos_tag(tokens)
+    for word, tag in pos_tags:
+      if tag in adj_list:
+        adjectives.append(word)
+      elif tag in noun_list:
+        nouns.append(word)
+
+for noun in nouns:
+  noun.lower() # Character names are originally all uppercase
+
+num = int(input("How many Repl names would you like to generate? "))
+for i in range(0, num):
+  shuffle(adjectives)
+  shuffle(nouns)
+  print(adjectives[0].capitalize() + adjectives[1].capitalize() + nouns[0].capitalize()) # Repl name format 
