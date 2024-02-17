@@ -12,6 +12,13 @@ What This Program Entails:
 -- Shuffle sorts the adjectives and nouns to generate countless adjective-adjective-noun combinations. 
 
 
+Sample Output:
+
+-- Repl names: HighlevelLightgreyRatio, RelevantAmusingOpposites, FineWeakDigits
+
+-- Shakespearean Repl names: AthenianBlamefulChaste, FairSweetGrace, MoreDevilish-holyConqueror
+
+
 Future Directions:
 
 -- Similar part-of-speech experiments can use other NLTK corpora, like Sample European Parliament Proceedings Paralle Corpus, Machado de Assis -- Obra Completa, Twitter Samples, C-SPAN Inaugural Address, and York-Toronto-Helsinki Parsed Corpus of Old English Prose. https://www.nltk.org/nltk_data/
