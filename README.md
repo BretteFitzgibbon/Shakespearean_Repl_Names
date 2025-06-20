@@ -2,7 +2,11 @@
 
 What This Program Does:
 
-Those who use Replit know that their default Repl names are pretty quirky. Though they're unique, they all follow the format AdjectiveAdjectiveNoun. This program uses that formula with Shakespeare's "A Midsummer Night's Dream" to create fey, whimsical Repl monikers.
+Those who use Replit know that their default REPL names are pretty quirky. For example:
+
+-- HighlevelLightgreyRatio, RelevantAmusingOpposites, FineWeakDigits
+
+Though they're unique, they all follow the format AdjectiveAdjectiveNoun. This program uses that formula with Shakespeare's "A Midsummer Night's Dream" to create fey, whimsical REPL monikers.
 
 What This Program Entails:
 
@@ -15,9 +19,7 @@ What This Program Entails:
 
 Sample Output:
 
--- Repl names: HighlevelLightgreyRatio, RelevantAmusingOpposites, FineWeakDigits
-
--- Shakespearean Repl names: AthenianBlamefulChaste, FairSweetGrace, MoreDevilish-holyConqueror
+-- AthenianBlamefulChaste, FairSweetGrace, MoreDevilish-holyConqueror
 
 
 Future Directions:
