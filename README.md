@@ -2,7 +2,7 @@
 
 What This Program Does:
 
-For those who are not familiar, Replit (formerly known as REPL.it), is an online integrated development environment (IDE). When creating a new project, or Repl, Replit presents a default name before the user writes in their own. The default names are fun and quirky, like SomeUsableDrawings, ConventionalBewitchedJumpthreading, and SpiffyFantasticBlockchain. Though these names are unique, they all have the format AdjectiveAdjectiveNoun. In this program, we trade in Replit’s techie slant for gems from the Bard himself.
+For those who are not familiar, Replit (formerly known as REPL.it), is an online integrated development environment (IDE). When creating a new project, or REPL, Replit presents a default name before the user writes in their own. The default names are fun and quirky, like SomeUsableDrawings, ConventionalBewitchedJumpthreading, and SpiffyFantasticBlockchain. Though these names are unique, they all have the format AdjectiveAdjectiveNoun. In this program, we trade in Replit’s techie slant for gems from the Bard himself.
 
 What This Program Entails:
 
@@ -16,9 +16,9 @@ ________________________________________
 
 Sample Output:
 
-— Repl names: HighlevelLightgreyRatio, RelevantAmusingOpposites, FineWeakDigits
+— REPL names: HighlevelLightgreyRatio, RelevantAmusingOpposites, FineWeakDigits
 
-— Shakespearean Repl names: AthenianBlamefulChaste, FairSweetGrace, MoreDevilish-holyConqueror
+— Shakespearean REPL names: AthenianBlamefulChaste, FairSweetGrace, MoreDevilish-holyConqueror
 ________________________________________ 
 
 How to Build:
